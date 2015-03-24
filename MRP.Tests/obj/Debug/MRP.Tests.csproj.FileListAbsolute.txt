@@ -7,3 +7,17 @@ E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\MRP.Middleware.pdb
 E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\obj\Debug\MRP.Tests.csprojResolveAssemblyReference.cache
 E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\obj\Debug\MRP.Tests.dll
 E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\obj\Debug\MRP.Tests.pdb
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\obj\Debug\MRP.Tests.csprojResolveAssemblyReference.cache
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\obj\Debug\MRP.Tests.dll
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\obj\Debug\MRP.Tests.pdb
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\MRP.Tests.dll
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\MRP.Tests.pdb
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\Mars_Rover_Problem v1.0.exe
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\MRP.Middleware.dll
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\StructureMap.dll
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\WebActivator.dll
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\Mars_Rover_Problem v1.0.pdb
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\MRP.Middleware.pdb
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\StructureMap.pdb
+C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\StructureMap.xml

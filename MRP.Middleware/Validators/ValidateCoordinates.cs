@@ -16,18 +16,18 @@ namespace MRP.Middleware.Validators
         {
             if (validateCurrentPosition)
             {
-                if (roverDetails.CurrentPosition.XCoordinate > roverDetails.RoverMaximumCoordinates.XCoordinate)
+                if (roverDetails.CurrentPosition.XCoordinate > roverDetails.MaximumCoordinates.XCoordinate)
                     _errMsgBuilder.Append(ErrMsgXCoordinate);
 
-                if (roverDetails.CurrentPosition.YCoordinate > roverDetails.RoverMaximumCoordinates.YCoordinate)
+                if (roverDetails.CurrentPosition.YCoordinate > roverDetails.MaximumCoordinates.YCoordinate)
                     _errMsgBuilder.Append(ErrMsgYCoordinate);
             }
             else
             {
-                if (roverDetails.FinalPosition.XCoordinate > roverDetails.RoverMaximumCoordinates.XCoordinate)
+                if (roverDetails.FinalPosition.XCoordinate > roverDetails.MaximumCoordinates.XCoordinate)
                     _errMsgBuilder.Append(ErrMsgXCoordinate);
 
-                if (roverDetails.FinalPosition.YCoordinate > roverDetails.RoverMaximumCoordinates.YCoordinate)
+                if (roverDetails.FinalPosition.YCoordinate > roverDetails.MaximumCoordinates.YCoordinate)
                     _errMsgBuilder.Append(ErrMsgYCoordinate);
             }
 
