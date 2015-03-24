@@ -1,0 +1,5 @@
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\bin\Debug\MRP.Middleware.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\bin\Debug\MRP.Middleware.pdb
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\obj\Debug\MRP.Middleware.csprojResolveAssemblyReference.cache
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\obj\Debug\MRP.Middleware.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\obj\Debug\MRP.Middleware.pdb

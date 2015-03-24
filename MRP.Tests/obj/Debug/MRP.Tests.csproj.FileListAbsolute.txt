@@ -1,0 +1,9 @@
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\MRP.Tests.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\MRP.Tests.pdb
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\Mars_Rover_Problem v1.0.exe
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\MRP.Middleware.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\Mars_Rover_Problem v1.0.pdb
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\MRP.Middleware.pdb
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\obj\Debug\MRP.Tests.csprojResolveAssemblyReference.cache
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\obj\Debug\MRP.Tests.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\obj\Debug\MRP.Tests.pdb
