@@ -4,6 +4,6 @@
     {
         public int XCoordinate { get; set; }
         public int YCoordinate { get; set; }
-        public OrientationDetails.Orientation Orientaion { get; set; }
+        public OrientationDetails.CompassDirection CompassDirection { get; set; }
     }
 }

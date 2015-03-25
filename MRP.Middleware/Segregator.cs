@@ -5,36 +5,35 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using MRP.Middleware.Exceptions;
+using MRP.Middleware.Processor;
 using MRP.Middleware.Properties;
-using MRP.Middleware.Service;
+using StructureMap;
 
 namespace MRP.Middleware
 {
     public class Segregator
     {
-        private readonly Initialize _initializor;        
-        public Segregator()
-        {
-            _initializor = new Initialize();
-        }
+        private readonly Initialize _initializor = ObjectFactory.GetInstance<Initialize>();
+        private readonly Regex _orientationPattern = new Regex(Settings.Default.orientationPattern);
+        private readonly Regex _maxPositionPattern = new Regex(Settings.Default.maxPositionPattern);
+        private readonly Regex _currentPositionPattern = new Regex(Settings.Default.currentPositionPattern);
 
         public void Segregate(string input)
         {
-            var maxPositionPattern = new Regex(Settings.Default.maxPositionPattern);
-            var currentPositionPattern = new Regex(Settings.Default.currentPositionPattern);
-            var orientationPattern = new Regex(Settings.Default.orientationPattern);
             try
             {
-                if (maxPositionPattern.IsMatch(input))
+                if (_maxPositionPattern.IsMatch(input))
                     _initializor.PopulateMaxPositionDetails(input);
-                else if (currentPositionPattern.IsMatch(input))
+                else if (_currentPositionPattern.IsMatch(input))
                     _initializor.PopulateCurrentPositionDetails(input);
-                else if (orientationPattern.IsMatch(input))
+                else if (_orientationPattern.IsMatch(input))
                     _initializor.GetTheDestinationDetails(input);
+                else
+                    throw new InvalidInputException("Invalid Input");
             }
-            catch (InvalidInputException)
-            {
-                throw new InvalidInputException("Invalid Input Exception");
+            catch (InvalidInputException exception)
+            {                
+                Console.WriteLine(exception.Message);
             }
         }
     }

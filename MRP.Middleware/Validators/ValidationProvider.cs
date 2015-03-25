@@ -12,8 +12,7 @@ namespace MRP.Middleware.Validators
         {
             return new List<IValidator>()
             {
-                new ValidateCoordinates(),
-                new ValidateOrientation()
+                new ValidateCoordinates()                
             };
         }
     }

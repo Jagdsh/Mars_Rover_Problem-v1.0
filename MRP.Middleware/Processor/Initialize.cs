@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using MRP.Middleware.Models;
 using MRP.Middleware.Properties;
+using MRP.Middleware.Validators;
 using StructureMap;
 
-namespace MRP.Middleware.Service
+namespace MRP.Middleware.Processor
 {
     public class Initialize
     {
         private readonly RoverDetails _roverDetails;
-        private readonly Processor.Processor _processor = ObjectFactory.GetInstance<Processor.Processor>();
-        public Initialize()
+        private readonly Processor _processor = ObjectFactory.GetInstance<Processor>();
+        private readonly List<IValidator> _validators;
+        public Initialize(ValidationProvider validationProvider,RoverDetails roverDetails)
         {
-            _roverDetails = new RoverDetails();
+            _roverDetails = roverDetails;
+            _validators = validationProvider.GetValidators();
         }
 
         public void PopulateMaxPositionDetails(string maxCoordinates)
@@ -42,14 +42,20 @@ namespace MRP.Middleware.Service
             {
                 XCoordinate = int.Parse(regexMatch.Groups["xcoordinate"].Value),
                 YCoordinate = int.Parse(regexMatch.Groups["ycoordinate"].Value),
-                Orientaion = (OrientationDetails.Orientation)Enum.Parse(typeof(OrientationDetails.Orientation), regexMatch.Groups["orientation"].Value)
+                CompassDirection = (OrientationDetails.CompassDirection)Enum.Parse(typeof(OrientationDetails.CompassDirection), regexMatch.Groups["orientation"].Value)
             };
+
+            _validators.ForEach(x => x.Validate(_roverDetails, true));
         }
 
         public void GetTheDestinationDetails(string instruction)
         {
             _roverDetails.RoverInstruction = instruction;
             _processor.GetTheDestination(_roverDetails);
+
+            _validators.ForEach(x => x.Validate(_roverDetails, false));
+
+            Console.WriteLine(_roverDetails.Output);
         }
     }
 }

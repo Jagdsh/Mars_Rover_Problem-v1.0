@@ -9,12 +9,18 @@ namespace MRP.Middleware.Models
 {
     public class OrientationDetails
     {        
-        public enum Orientation
+        public enum CompassDirection
         {            
             N = 0,
             E = 1,
             S = 2,
             W = 3,            
+        }
+
+        public enum Orientation
+        {
+            L,
+            R            
         }
     }
 }

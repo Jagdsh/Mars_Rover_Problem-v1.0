@@ -52,5 +52,13 @@ namespace MRP.Middleware.Properties
         {
             get { return ((string)(this["orientationPattern"])); }
         }
+
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCode()]
+        [global::System.Configuration.DefaultSettingValueAttribute("{0} {1} {2}")]
+        public string OutputFormat
+        {
+            get { return ((string)(this["OutputFormat"])); }
+        }
     }
 }
