@@ -21,3 +21,8 @@ C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\
 C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\MRP.Middleware.pdb
 C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\StructureMap.pdb
 C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Tests\bin\Debug\StructureMap.xml
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\StructureMap.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\WebActivator.dll
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\StructureMap.pdb
+E:\Projects\Mars_Rover_Problem v1.0\MRP.Tests\bin\Debug\StructureMap.xml

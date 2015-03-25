@@ -13,7 +13,7 @@ namespace MRP.Middleware.Processor
         {
             foreach (var command in roverDetails.RoverInstruction)
             {
-                
+                ((int) OrientationDetails.Orientation.S + 1)%4;
             }
         }
     }
