@@ -40,8 +40,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\InvalidCoordinateException.cs" />
     <Compile Include="Exceptions\InvalidInputException.cs" />
-    <Compile Include="Extensions\Extensions.cs" />
     <Compile Include="Models\OrientationDetails.cs" />
     <Compile Include="Models\Rover.cs" />
     <Compile Include="Processor\Processor.cs" />
@@ -56,6 +56,7 @@
     <Compile Include="Processor\Initialize.cs" />
     <Compile Include="Validators\IValidator.cs" />
     <Compile Include="Validators\ValidateCoordinates.cs" />
+    <Compile Include="Validators\ValidateInputFormat.cs" />
     <Compile Include="Validators\ValidationProvider.cs" />
   </ItemGroup>
   <ItemGroup>

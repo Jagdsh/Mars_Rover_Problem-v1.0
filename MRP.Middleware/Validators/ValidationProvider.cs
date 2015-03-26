@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StructureMap;
 
 namespace MRP.Middleware.Validators
 {
@@ -12,7 +13,8 @@ namespace MRP.Middleware.Validators
         {
             return new List<IValidator>()
             {
-                new ValidateCoordinates()                
+                ObjectFactory.GetInstance<ValidateInputFormat>(),
+                ObjectFactory.GetInstance<ValidateCoordinates>()                
             };
         }
     }

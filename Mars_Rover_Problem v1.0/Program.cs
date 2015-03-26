@@ -14,8 +14,8 @@ namespace Mars_Rover_Problem_v1._0
         {
             while (true)
             {
-                Segregator.Segregate(Console.ReadLine());
-            }            
+                Console.WriteLine(Segregator.Segregate(Console.ReadLine()));
+            }
         }
     }
 }
