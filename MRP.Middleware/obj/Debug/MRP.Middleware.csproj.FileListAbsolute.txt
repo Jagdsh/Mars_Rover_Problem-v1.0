@@ -6,9 +6,7 @@ E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\obj\Debug\MRP.Middleware.pdb
 C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Middleware\obj\Debug\MRP.Middleware.csprojResolveAssemblyReference.cache
 C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Middleware\obj\Debug\MRP.Middleware.dll
 C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Middleware\obj\Debug\MRP.Middleware.pdb
-E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\bin\Debug\Microsoft.Web.Infrastructure.dll
 E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\bin\Debug\StructureMap.dll
-E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\bin\Debug\WebActivator.dll
 E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\bin\Debug\StructureMap.pdb
 E:\Projects\Mars_Rover_Problem v1.0\MRP.Middleware\bin\Debug\StructureMap.xml
 C:\Jagdsh_Personal\Git Hub\Mars_Rover_Problem\Mars_Rover_Problem-v1.0\MRP.Middleware\bin\Debug\MRP.Middleware.dll

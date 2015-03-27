@@ -8,12 +8,13 @@ Name of the Projects
 Minimal Requirement
 	- .Net Framework 4.0
 	- Visual Studio 2012
-	- 
 
 External Libraries
 	- psake
 	- StuctureMaP
 
+Summary
+	- For a given Maximum Coordinates, Current Position and Instructions get the final positions
 
 Voice : +91-9944956616
 email : jagdshlk@gmail.com

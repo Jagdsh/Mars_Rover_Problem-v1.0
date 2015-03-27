@@ -19,7 +19,3 @@ namespace Mars_Rover_Problem_v1._0
         }
     }
 }
-
-//https://github.com/psake/psake/wiki/How-can-I-use-psake-to-build-a-VS.NET-solution%3F
-//https://github.com/psake/psake
-//http://priyaaank.tumblr.com/post/95095165285/decoding-thoughtworks-coding-problems
